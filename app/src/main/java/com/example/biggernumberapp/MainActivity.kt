@@ -66,8 +66,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun changeNumbers() {
-        obj.leftButton.text = (0..100).random().toString()
-        obj.rightButton.text = (0..100).random().toString()
+        obj.leftButton.text = (0..1000).random().toString()
+        obj.rightButton.text = (0..1000).random().toString()
 
         if (obj.leftButton.text==obj.rightButton.text){
             changeNumbers()
