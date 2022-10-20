@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Bigger Number App</string>
+    <string name="nullstring">Null</string>
+    <string name="click_on_any_number">Click on any number</string>
+    <string name="guess_the_number">Guess the number</string>
 </resources>

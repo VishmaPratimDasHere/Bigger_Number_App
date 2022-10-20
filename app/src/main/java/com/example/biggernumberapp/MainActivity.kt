@@ -15,11 +15,22 @@ class MainActivity : AppCompatActivity() {
 
         obj = ActivityMainBinding.inflate(layoutInflater)   // populate object
         setContentView(obj.root)    // set screen as object root
+        changeNumbers()
         this.showResult()
     }
 
     private fun showResult() {
         obj.leftButton.setOnClickListener {
+            this.checkAnswer(true)
+        }
+
+        obj.rightButton.setOnClickListener {
+            this.checkAnswer(false)
+        }
+    }
+
+    private fun checkAnswer(isLeftButtonClicked: Boolean) {
+        if (isLeftButtonClicked) {
             val num1 = obj.leftButton.text.toString().toInt()
             val num2 = obj.rightButton.text.toString().toInt()
 
@@ -30,15 +41,12 @@ class MainActivity : AppCompatActivity() {
                 obj.BackgoundView.setBackgroundColor(Color.GREEN)
             } else {
                 // SHOW TOAST
-                Toast.makeText(this, "You suck bro! Try again!"
-                        +"TIP: PICK THE BIGGER NUMBER!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Wrong", Toast.LENGTH_SHORT).show()
                 // CHANGE BACKGROUND COLOR
                 obj.BackgoundView.setBackgroundColor(Color.RED)
             }
             changeNumbers()
-        }
-
-        obj.rightButton.setOnClickListener {
+        } else {
             val num1 = obj.leftButton.text.toString().toInt()
             val num2 = obj.rightButton.text.toString().toInt()
 
@@ -49,8 +57,7 @@ class MainActivity : AppCompatActivity() {
                 obj.BackgoundView.setBackgroundColor(Color.GREEN)
             } else {
                 // SHOW TOAST
-                Toast.makeText(this, "You suck bro! Try again!"
-                        +"TIP: PICK THE BIGGER NUMBER!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Wrong", Toast.LENGTH_SHORT).show()
                 // CHANGE BACKGROUND COLOR
                 obj.BackgoundView.setBackgroundColor(Color.RED)
             }
