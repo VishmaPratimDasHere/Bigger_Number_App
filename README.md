@@ -1,6 +1,6 @@
 # BIGGER NUMBER APP
 
-# Vishma Pratim Das
+## *Vishma Pratim Das*
 
 ## FUNCTIONALITIES
   The following functionalities have been implemented in the project-
