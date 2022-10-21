@@ -6,7 +6,7 @@
   The following functionalities have been implemented in the project-
 * [x] Users can select one of the two buttons in the options menu
 * [x] Users see a change in background color
-* [x] A toast appears to let users know the outcome of their choice
+* [x] The users see new distinct numbers after clicking their choice
 
 ## WALKTHROUGH
   ![](https://media.giphy.com/media/6lJ0x8FjhQDpvy2Z6K/giphy.gif)
