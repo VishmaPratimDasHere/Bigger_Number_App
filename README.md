@@ -1,8 +1,10 @@
 # BIGGER NUMBER APP
 
-## OBJECTIVES COVERED IN THIS PROJECT
+## FUNCTIONALITIES
+  The following functionalities have been implemented in the project-
 * [x] Users can select one of the two buttons in the options menu
-* [x] Users see a 
+* [x] Users see a change in background color
+* [x] A toast appears to let users know the outcome of their choice
 
 ## LICENSE
     Copyright [2022] [Vishma Pratim Das]
