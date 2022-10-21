@@ -1,8 +1,8 @@
 # BIGGER NUMBER APP
 
 ## OBJECTIVES COVERED IN THIS PROJECT
-[x] Users can select one of the two buttons in the options menu
-[x] Users see a 
+[X] Users can select one of the two buttons in the options menu
+[X] Users see a 
 
 ## LICENSE
     Copyright [2022] [Vishma Pratim Das]
