@@ -9,7 +9,7 @@
 * [x] A toast appears to let users know the outcome of their choice
 
 ## WALKTHROUGH
-<iframe src="https://giphy.com/embed/6lJ0x8FjhQDpvy2Z6K" width="308" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/6lJ0x8FjhQDpvy2Z6K">via GIPHY</a></p>
+  <iframe src="https://giphy.com/embed/6lJ0x8FjhQDpvy2Z6K" width="308" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ## LICENSE
     Copyright [2022] [Vishma Pratim Das]
