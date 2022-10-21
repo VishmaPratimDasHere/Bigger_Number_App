@@ -1,5 +1,7 @@
 # BIGGER NUMBER APP
 
+# Vishma Pratim Das
+
 ## FUNCTIONALITIES
   The following functionalities have been implemented in the project-
 * [x] Users can select one of the two buttons in the options menu
